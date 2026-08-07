@@ -1,0 +1,62 @@
+name: odyssey-watch
+
+on:
+  schedule:
+    # Fires once an hour; the job then polls internally every 60s for ~55 min,
+    # so we don't depend on GitHub's flaky per-minute scheduler.
+    - cron: "3 * * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "What to run (use test / dry-run to verify setup)"
+        type: choice
+        default: watch
+        options:
+          - watch        # normal: poll 60s for ~55 min (what the schedule uses)
+          - test         # send ONE test message to your phone, then stop
+          - dry-run      # print current matches to the log, send NOTHING
+          - force-once   # send real alerts for ALL current dates once, then stop
+
+permissions:
+  contents: write
+
+concurrency:
+  group: odyssey-watch
+  cancel-in-progress: true
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 58
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run
+        env:
+          # You only need ONE notifier. Telegram is the default.
+          TELEGRAM_TOKEN:   ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          NTFY_TOPIC:       ${{ secrets.NTFY_TOPIC }}
+        run: |
+          MODE="${{ inputs.mode }}"
+          [ -z "$MODE" ] && MODE="watch"     # scheduled runs have no input
+          echo "Running in mode: $MODE"
+          case "$MODE" in
+            test)       python watch.py --test ;;
+            dry-run)    python watch.py --once --force --dry-run ;;
+            force-once) python watch.py --once --force ;;
+            *)          python watch.py --loop 60 --full-every 300 --max-runtime 3300 ;;
+          esac
+
+      - name: Persist state
+        if: always()   # commit even if the loop is cut short
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state/seen.json
+          git commit -m "update seen state" || echo "no state change"
+          git push || echo "nothing to push"
