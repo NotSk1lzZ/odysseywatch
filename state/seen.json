@@ -400,7 +400,7 @@
     "when": "2026-08-16T09:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.0208,
+    "ratio": 0.0156,
     "attrs": [
       "15-plus",
       "2d",
@@ -526,7 +526,7 @@
     "when": "2026-08-17T20:30:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.0182,
+    "ratio": 0.0156,
     "attrs": [
       "15-plus",
       "2d",
@@ -544,7 +544,7 @@
     "when": "2026-08-18T09:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.026,
+    "ratio": 0.0182,
     "attrs": [
       "15-plus",
       "2d",
@@ -616,7 +616,7 @@
     "when": "2026-08-19T09:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.026,
+    "ratio": 0.0156,
     "attrs": [
       "15-plus",
       "2d",
@@ -976,7 +976,7 @@
     "when": "2026-08-24T09:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.026,
+    "ratio": 0.0234,
     "attrs": [
       "15-plus",
       "2d",
