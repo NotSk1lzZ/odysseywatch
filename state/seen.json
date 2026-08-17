@@ -22,7 +22,7 @@
     "when": "2026-08-17T16:40:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.013,
+    "ratio": 0.0182,
     "attrs": [
       "15-plus",
       "2d",
@@ -34,24 +34,6 @@
       "subbed"
     ],
     "link": "https://www.cinemacity.cz/cz/booking-router/launch/224497?lang=cs"
-  },
-  "224498": {
-    "film": "Odyssea",
-    "when": "2026-08-17T20:30:00",
-    "auditorium": "IMAX VOLVO",
-    "soldOut": false,
-    "ratio": 0.0156,
-    "attrs": [
-      "15-plus",
-      "2d",
-      "70-mm",
-      "drama",
-      "first-subbed-lang-cs",
-      "history",
-      "original-lang-en",
-      "subbed"
-    ],
-    "link": "https://www.cinemacity.cz/cz/booking-router/launch/224498?lang=cs"
   },
   "224499": {
     "film": "Odyssea",
@@ -112,7 +94,7 @@
     "when": "2026-08-18T20:30:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.0182,
+    "ratio": 0.0156,
     "attrs": [
       "15-plus",
       "2d",
@@ -472,7 +454,7 @@
     "when": "2026-08-23T20:30:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.0182,
+    "ratio": 0.0156,
     "attrs": [
       "15-plus",
       "2d",
@@ -562,7 +544,7 @@
     "when": "2026-08-25T09:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.3403,
+    "ratio": 0.3351,
     "attrs": [
       "15-plus",
       "2d",
@@ -634,7 +616,7 @@
     "when": "2026-08-26T09:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.3688,
+    "ratio": 0.374,
     "attrs": [
       "15-plus",
       "2d",
@@ -652,7 +634,7 @@
     "when": "2026-08-26T12:50:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.2468,
+    "ratio": 0.2519,
     "attrs": [
       "15-plus",
       "2d",
@@ -688,7 +670,7 @@
     "when": "2026-08-26T20:30:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.1013,
+    "ratio": 0.0961,
     "attrs": [
       "15-plus",
       "2d",
@@ -706,7 +688,7 @@
     "when": "2026-08-27T11:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.2623,
+    "ratio": 0.2545,
     "attrs": [
       "15-plus",
       "2d",
@@ -724,7 +706,7 @@
     "when": "2026-08-27T15:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.2078,
+    "ratio": 0.2026,
     "attrs": [
       "15-plus",
       "2d",
@@ -976,7 +958,7 @@
     "when": "2026-08-31T12:50:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.2623,
+    "ratio": 0.2571,
     "attrs": [
       "15-plus",
       "2d",
@@ -1012,7 +994,7 @@
     "when": "2026-08-31T20:30:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.1714,
+    "ratio": 0.1662,
     "attrs": [
       "15-plus",
       "2d",
@@ -1048,7 +1030,7 @@
     "when": "2026-09-01T12:50:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.426,
+    "ratio": 0.4208,
     "attrs": [
       "15-plus",
       "2d",
@@ -1102,7 +1084,7 @@
     "when": "2026-09-02T11:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.4857,
+    "ratio": 0.4779,
     "attrs": [
       "15-plus",
       "2d",
@@ -1156,7 +1138,7 @@
     "when": "2026-09-03T12:50:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.4857,
+    "ratio": 0.4831,
     "attrs": [
       "15-plus",
       "2d",
@@ -1174,7 +1156,7 @@
     "when": "2026-09-03T16:40:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.2468,
+    "ratio": 0.2416,
     "attrs": [
       "15-plus",
       "2d",
@@ -1228,7 +1210,7 @@
     "when": "2026-09-04T12:50:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.4234,
+    "ratio": 0.413,
     "attrs": [
       "15-plus",
       "2d",
@@ -1300,7 +1282,7 @@
     "when": "2026-09-05T12:50:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.2078,
+    "ratio": 0.2052,
     "attrs": [
       "15-plus",
       "2d",
@@ -1318,7 +1300,7 @@
     "when": "2026-09-05T16:40:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.1429,
+    "ratio": 0.1377,
     "attrs": [
       "15-plus",
       "2d",
@@ -1426,7 +1408,7 @@
     "when": "2026-09-07T09:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.5221,
+    "ratio": 0.5169,
     "attrs": [
       "15-plus",
       "2d",
@@ -1462,7 +1444,7 @@
     "when": "2026-09-07T16:40:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.2779,
+    "ratio": 0.2753,
     "attrs": [
       "15-plus",
       "2d",
