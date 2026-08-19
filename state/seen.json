@@ -1048,7 +1048,7 @@
     "when": "2026-09-03T16:40:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.1584,
+    "ratio": 0.1532,
     "attrs": [
       "15-plus",
       "2d",
@@ -1192,7 +1192,7 @@
     "when": "2026-09-05T16:40:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.0987,
+    "ratio": 0.0909,
     "attrs": [
       "15-plus",
       "2d",
@@ -1408,7 +1408,7 @@
     "when": "2026-09-08T16:40:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.1636,
+    "ratio": 0.1584,
     "attrs": [
       "15-plus",
       "2d",
