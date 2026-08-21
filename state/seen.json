@@ -1,22 +1,4 @@
 {
-  "224511": {
-    "film": "Odyssea",
-    "when": "2026-08-21T09:00:00",
-    "auditorium": "IMAX VOLVO",
-    "soldOut": false,
-    "ratio": 0.0208,
-    "attrs": [
-      "15-plus",
-      "2d",
-      "70-mm",
-      "drama",
-      "first-subbed-lang-cs",
-      "history",
-      "original-lang-en",
-      "subbed"
-    ],
-    "link": "https://www.cinemacity.cz/cz/booking-router/launch/224511?lang=cs"
-  },
   "224512": {
     "film": "Odyssea",
     "when": "2026-08-21T12:50:00",
@@ -310,7 +292,7 @@
     "when": "2026-08-25T12:50:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.0909,
+    "ratio": 0.0883,
     "attrs": [
       "15-plus",
       "2d",
@@ -328,7 +310,7 @@
     "when": "2026-08-25T16:40:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.0312,
+    "ratio": 0.0286,
     "attrs": [
       "15-plus",
       "2d",
@@ -688,7 +670,7 @@
     "when": "2026-08-31T09:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.1948,
+    "ratio": 0.1896,
     "attrs": [
       "15-plus",
       "2d",
@@ -760,7 +742,7 @@
     "when": "2026-09-01T09:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.3636,
+    "ratio": 0.361,
     "attrs": [
       "15-plus",
       "2d",
@@ -778,7 +760,7 @@
     "when": "2026-09-01T12:50:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.2468,
+    "ratio": 0.2416,
     "attrs": [
       "15-plus",
       "2d",
@@ -868,7 +850,7 @@
     "when": "2026-09-03T09:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.3455,
+    "ratio": 0.3403,
     "attrs": [
       "15-plus",
       "2d",
@@ -922,7 +904,7 @@
     "when": "2026-09-03T20:30:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.1169,
+    "ratio": 0.1117,
     "attrs": [
       "15-plus",
       "2d",
@@ -1102,7 +1084,7 @@
     "when": "2026-09-06T12:50:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.1351,
+    "ratio": 0.1299,
     "attrs": [
       "15-plus",
       "2d",
