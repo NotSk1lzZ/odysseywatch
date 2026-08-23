@@ -1,22 +1,4 @@
 {
-  "224519": {
-    "film": "Odyssea",
-    "when": "2026-08-23T09:00:00",
-    "auditorium": "IMAX VOLVO",
-    "soldOut": false,
-    "ratio": 0.0156,
-    "attrs": [
-      "15-plus",
-      "2d",
-      "70-mm",
-      "drama",
-      "first-subbed-lang-cs",
-      "history",
-      "original-lang-en",
-      "subbed"
-    ],
-    "link": "https://www.cinemacity.cz/cz/booking-router/launch/224519?lang=cs"
-  },
   "224520": {
     "film": "Odyssea",
     "when": "2026-08-23T12:50:00",
@@ -634,7 +616,7 @@
     "when": "2026-09-01T12:50:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.213,
+    "ratio": 0.2104,
     "attrs": [
       "15-plus",
       "2d",
@@ -706,7 +688,7 @@
     "when": "2026-09-02T15:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.174,
+    "ratio": 0.1688,
     "attrs": [
       "15-plus",
       "2d",
