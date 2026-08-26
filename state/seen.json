@@ -4,7 +4,7 @@
     "when": "2026-08-26T12:50:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.0468,
+    "ratio": 0.0364,
     "attrs": [
       "15-plus",
       "2d",
@@ -22,7 +22,7 @@
     "when": "2026-08-26T16:40:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.026,
+    "ratio": 0.0312,
     "attrs": [
       "15-plus",
       "2d",
@@ -40,7 +40,7 @@
     "when": "2026-08-26T20:30:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.0156,
+    "ratio": 0.0182,
     "attrs": [
       "15-plus",
       "2d",
@@ -76,7 +76,7 @@
     "when": "2026-08-27T15:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.0364,
+    "ratio": 0.0416,
     "attrs": [
       "15-plus",
       "2d",
@@ -94,7 +94,7 @@
     "when": "2026-08-28T09:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.0675,
+    "ratio": 0.0623,
     "attrs": [
       "15-plus",
       "2d",
@@ -112,7 +112,7 @@
     "when": "2026-08-28T12:50:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.0364,
+    "ratio": 0.0312,
     "attrs": [
       "15-plus",
       "2d",
@@ -202,7 +202,7 @@
     "when": "2026-08-29T16:40:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.0156,
+    "ratio": 0.0208,
     "attrs": [
       "15-plus",
       "2d",
@@ -238,7 +238,7 @@
     "when": "2026-08-30T09:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.0597,
+    "ratio": 0.0571,
     "attrs": [
       "15-plus",
       "2d",
@@ -310,7 +310,7 @@
     "when": "2026-08-31T09:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.1273,
+    "ratio": 0.1221,
     "attrs": [
       "15-plus",
       "2d",
@@ -454,7 +454,7 @@
     "when": "2026-09-02T11:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.1688,
+    "ratio": 0.1636,
     "attrs": [
       "15-plus",
       "2d",
@@ -472,7 +472,7 @@
     "when": "2026-09-02T15:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.1351,
+    "ratio": 0.1377,
     "attrs": [
       "15-plus",
       "2d",
@@ -490,7 +490,7 @@
     "when": "2026-09-03T09:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.2364,
+    "ratio": 0.2416,
     "attrs": [
       "15-plus",
       "2d",
@@ -508,7 +508,7 @@
     "when": "2026-09-03T12:50:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.1844,
+    "ratio": 0.1896,
     "attrs": [
       "15-plus",
       "2d",
@@ -562,7 +562,7 @@
     "when": "2026-09-04T12:50:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.1481,
+    "ratio": 0.1532,
     "attrs": [
       "15-plus",
       "2d",
@@ -598,7 +598,7 @@
     "when": "2026-09-04T20:30:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.0597,
+    "ratio": 0.0545,
     "attrs": [
       "15-plus",
       "2d",
@@ -742,7 +742,7 @@
     "when": "2026-09-06T20:30:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.0909,
+    "ratio": 0.0961,
     "attrs": [
       "15-plus",
       "2d",
@@ -778,7 +778,7 @@
     "when": "2026-09-07T12:50:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.1922,
+    "ratio": 0.1974,
     "attrs": [
       "15-plus",
       "2d",
@@ -904,7 +904,7 @@
     "when": "2026-09-09T09:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.974,
+    "ratio": 0.8779,
     "attrs": [
       "15-plus",
       "2d",
@@ -917,9 +917,135 @@
     ],
     "link": "https://www.cinemacity.cz/cz/booking-router/launch/241543?lang=cs"
   },
+  "241544": {
+    "film": "Odyssea",
+    "when": "2026-09-09T12:50:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.9299,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241544?lang=cs"
+  },
+  "241545": {
+    "film": "Odyssea",
+    "when": "2026-09-09T16:40:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.7636,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241545?lang=cs"
+  },
+  "241546": {
+    "film": "Odyssea",
+    "when": "2026-09-09T20:30:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.6935,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241546?lang=cs"
+  },
   "241547": {
     "film": "Odyssea",
     "when": "2026-09-10T09:00:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.839,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241547?lang=cs"
+  },
+  "241548": {
+    "film": "Odyssea",
+    "when": "2026-09-10T12:50:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.9532,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241548?lang=cs"
+  },
+  "241549": {
+    "film": "Odyssea",
+    "when": "2026-09-10T16:40:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.761,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241549?lang=cs"
+  },
+  "241550": {
+    "film": "Odyssea",
+    "when": "2026-09-10T20:30:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.7688,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241550?lang=cs"
+  },
+  "241551": {
+    "film": "Odyssea",
+    "when": "2026-09-11T09:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
     "ratio": 0.9714,
@@ -933,6 +1059,564 @@
       "original-lang-en",
       "subbed"
     ],
-    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241547?lang=cs"
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241551?lang=cs"
+  },
+  "241552": {
+    "film": "Odyssea",
+    "when": "2026-09-11T12:50:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.9532,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241552?lang=cs"
+  },
+  "241553": {
+    "film": "Odyssea",
+    "when": "2026-09-11T16:40:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.7558,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241553?lang=cs"
+  },
+  "241554": {
+    "film": "Odyssea",
+    "when": "2026-09-11T20:30:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.787,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241554?lang=cs"
+  },
+  "241555": {
+    "film": "Odyssea",
+    "when": "2026-09-12T09:00:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.9351,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241555?lang=cs"
+  },
+  "241556": {
+    "film": "Odyssea",
+    "when": "2026-09-12T12:50:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.7455,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241556?lang=cs"
+  },
+  "241557": {
+    "film": "Odyssea",
+    "when": "2026-09-12T16:40:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.7169,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241557?lang=cs"
+  },
+  "241558": {
+    "film": "Odyssea",
+    "when": "2026-09-12T20:30:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.761,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241558?lang=cs"
+  },
+  "241559": {
+    "film": "Odyssea",
+    "when": "2026-09-13T09:00:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.9325,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241559?lang=cs"
+  },
+  "241560": {
+    "film": "Odyssea",
+    "when": "2026-09-13T12:50:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.8442,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241560?lang=cs"
+  },
+  "241561": {
+    "film": "Odyssea",
+    "when": "2026-09-13T16:40:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.7584,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241561?lang=cs"
+  },
+  "241562": {
+    "film": "Odyssea",
+    "when": "2026-09-13T20:30:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.839,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241562?lang=cs"
+  },
+  "241563": {
+    "film": "Odyssea",
+    "when": "2026-09-14T09:00:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.9948,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241563?lang=cs"
+  },
+  "241564": {
+    "film": "Odyssea",
+    "when": "2026-09-14T12:50:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.9714,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241564?lang=cs"
+  },
+  "241565": {
+    "film": "Odyssea",
+    "when": "2026-09-14T16:40:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.9117,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241565?lang=cs"
+  },
+  "241566": {
+    "film": "Odyssea",
+    "when": "2026-09-14T20:30:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.8442,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241566?lang=cs"
+  },
+  "241567": {
+    "film": "Odyssea",
+    "when": "2026-09-15T09:00:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 1.0,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241567?lang=cs"
+  },
+  "241568": {
+    "film": "Odyssea",
+    "when": "2026-09-15T12:50:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.9792,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241568?lang=cs"
+  },
+  "241569": {
+    "film": "Odyssea",
+    "when": "2026-09-15T16:40:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.8519,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241569?lang=cs"
+  },
+  "241570": {
+    "film": "Odyssea",
+    "when": "2026-09-15T20:30:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.9351,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241570?lang=cs"
+  },
+  "241571": {
+    "film": "Odyssea",
+    "when": "2026-09-16T09:00:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.9948,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241571?lang=cs"
+  },
+  "241572": {
+    "film": "Odyssea",
+    "when": "2026-09-16T12:50:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.9948,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241572?lang=cs"
+  },
+  "241573": {
+    "film": "Odyssea",
+    "when": "2026-09-16T16:40:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.9429,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241573?lang=cs"
+  },
+  "241574": {
+    "film": "Odyssea",
+    "when": "2026-09-16T20:30:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.9117,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241574?lang=cs"
+  },
+  "241575": {
+    "film": "Odyssea",
+    "when": "2026-09-17T09:00:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 1.0,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241575?lang=cs"
+  },
+  "241576": {
+    "film": "Odyssea",
+    "when": "2026-09-17T12:50:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 1.0,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241576?lang=cs"
+  },
+  "241577": {
+    "film": "Odyssea",
+    "when": "2026-09-17T16:40:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.9636,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241577?lang=cs"
+  },
+  "241578": {
+    "film": "Odyssea",
+    "when": "2026-09-17T20:30:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.9455,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241578?lang=cs"
+  },
+  "241579": {
+    "film": "Odyssea",
+    "when": "2026-09-18T09:00:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.9948,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241579?lang=cs"
+  },
+  "241580": {
+    "film": "Odyssea",
+    "when": "2026-09-18T12:50:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.974,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241580?lang=cs"
+  },
+  "241581": {
+    "film": "Odyssea",
+    "when": "2026-09-18T16:50:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.9169,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241581?lang=cs"
+  },
+  "241582": {
+    "film": "Odyssea",
+    "when": "2026-09-18T20:30:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.8338,
+    "attrs": [
+      "15-plus",
+      "2d",
+      "70-mm",
+      "drama",
+      "first-subbed-lang-cs",
+      "history",
+      "original-lang-en",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/241582?lang=cs"
   }
 }
