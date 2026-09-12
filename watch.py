@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-odyssey-watch — Cinema City Praha Flora / IMAX 70mm watcher
+Cinema Notificationer 3000 — Cinema City Praha Flora / IMAX 70mm watcher
 
-Pings you when a NEW screening of Dune (Duna) appears at Flora, or when
-tickets are (re-)released for a screening that was sold out.
+Pings you when a NEW screening of Dune (Duna) appears at Flora — e.g. when a
+presale opens or new dates are added.
 
 How it works:
   * Uses Cinema City's public JSON "quickbook" API — the same API the website
@@ -52,7 +52,7 @@ REQ_DELAY  = float(os.environ.get("REQ_DELAY", "0.7"))      # politeness between
 TIMEOUT    = float(os.environ.get("HTTP_TIMEOUT", "20"))
 USER_AGENT = os.environ.get(
     "USER_AGENT",
-    "odyssey-watch/1.0 (personal showtime alert; https://github.com/)",
+    "cinema-notificationer-3000/1.0 (personal showtime alert; https://github.com/)",
 )
 
 # Notifiers — set at least one. Telegram is the default; ntfy is a fallback.
@@ -231,29 +231,15 @@ def run_once(seed: bool = False, force: bool = False, dates: list | None = None)
     label = f"{FILM_LABEL} {fmt}at Flora"
 
     for eid, ev in current.items():
-        prev = old.get(eid)
-        is_new = prev is None
-        released = (not is_new) and prev.get("soldOut") and not ev["soldOut"]
-
-        if force or is_new or released:
+        is_new = eid not in old
+        if force or is_new:
             when = _pretty_when(ev["when"])
             seats = "SOLD OUT" if ev["soldOut"] else (
                 f"~{round((ev['ratio'] or 0) * 100)}% seats free" if ev["ratio"] is not None
                 else "available")
-            if is_new:
-                head = f"🎬 New date — {label}"
-            elif released:
-                head = f"🎟️ Tickets released — {label}"
-            else:
-                head = label
+            head = f"🎬 New date — {label}" if is_new else label
             body = f"{when} · {ev['auditorium']} · {seats}"
             notify(head, body, ev["link"])
-
-    # Detect screenings that vanished (cancelled / date pulled) — optional signal.
-    for eid, prev in old.items():
-        if eid not in current:
-            notify(f"⚠️ Screening removed — {label}",
-                   f"{_pretty_when(prev.get('when',''))} is no longer listed", "")
 
     if not DRY_RUN:
         save_state(current)
@@ -318,7 +304,7 @@ def main() -> None:
 
     if args.test:
         print("Sending a test notification...")
-        notify("✅ odyssey-watch works",
+        notify("✅ Cinema Notificationer 3000 works",
                f"This is a test. Your {FILM_LABEL} alerts will look like this.",
                "https://www.cinemacity.cz/")
         print("Done. If nothing arrived, check your TELEGRAM_TOKEN / TELEGRAM_CHAT_ID.")
@@ -333,3 +319,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
