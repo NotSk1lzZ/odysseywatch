@@ -2,7 +2,7 @@
 """
 odyssey-watch — Cinema City Praha Flora / IMAX 70mm watcher
 
-Pings you when a NEW 70mm screening of The Odyssey appears at Flora, or when
+Pings you when a NEW screening of Dune (Duna) appears at Flora, or when
 tickets are (re-)released for a screening that was sold out.
 
 How it works:
@@ -43,8 +43,9 @@ from pathlib import Path
 BASE = "https://www.cinemacity.cz/cz/data-api-service/v1/quickbook/10101"
 CINEMA_ID  = os.environ.get("CINEMA_ID", "1052")            # 1052 = Praha Flora
 ATTR       = os.environ.get("ATTR", "70-mm")               # server-side filter + local recheck
-FILM_QUERY = os.environ.get("FILM_QUERY", "odysse").lower() # substring; matches "Odyssea"/"Odyssey"
-DAYS_AHEAD = int(os.environ.get("DAYS_AHEAD", "90"))
+FILM_QUERY = os.environ.get("FILM_QUERY", "dun").lower()    # substring; matches "Dune"/"Duna"
+FILM_LABEL = os.environ.get("FILM_LABEL", "Dune")          # used only in the alert wording
+DAYS_AHEAD = int(os.environ.get("DAYS_AHEAD", "365"))       # presales can be many months out
 LANG       = os.environ.get("LANG_CC", "cs_CZ")
 STATE_FILE = Path(os.environ.get("STATE_FILE", "state/seen.json"))
 REQ_DELAY  = float(os.environ.get("REQ_DELAY", "0.7"))      # politeness between requests
@@ -92,7 +93,7 @@ def api_events(date: str):
 
 
 # ----------------------------------------------------------------------------
-# Core scan: return {event_id: {...}} for screenings that match Odyssey + 70mm
+# Core scan: return {event_id: {...}} for screenings that match the film + attr
 # ----------------------------------------------------------------------------
 def scan(dates: list | None = None) -> dict:
     matches: dict = {}
@@ -172,12 +173,24 @@ def send_telegram(title: str, body: str, link: str) -> None:
     if not (TG_TOKEN and TG_CHAT):
         return
     text = f"*{title}*\n{body}\n{link}"
-    data = urllib.parse.urlencode({
-        "chat_id": TG_CHAT, "text": text,
-        "parse_mode": "Markdown", "disable_web_page_preview": "false",
-    }).encode()
     url = f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage"
-    urllib.request.urlopen(urllib.request.Request(url, data=data), timeout=TIMEOUT).read()
+    # TELEGRAM_CHAT_ID may hold several IDs separated by commas (or spaces).
+    chat_ids = [c.strip() for c in TG_CHAT.replace(";", ",").replace(" ", ",").split(",") if c.strip()]
+    ok = 0
+    for cid in chat_ids:
+        data = urllib.parse.urlencode({
+            "chat_id": cid, "text": text,
+            "parse_mode": "Markdown", "disable_web_page_preview": "false",
+        }).encode()
+        try:
+            urllib.request.urlopen(urllib.request.Request(url, data=data), timeout=TIMEOUT).read()
+            ok += 1
+        except Exception as e:
+            # One bad recipient (e.g. hasn't pressed Start) shouldn't block the rest.
+            print(f"  [telegram warning] chat {cid}: {e}", file=sys.stderr)
+    if ok == 0 and chat_ids:
+        raise RuntimeError("all Telegram recipients failed")
+
 
 
 DRY_RUN = False  # set by --dry-run: find matches but don't actually send
@@ -214,6 +227,9 @@ def run_once(seed: bool = False, force: bool = False, dates: list | None = None)
         print("Seeded state; no alerts sent.")
         return
 
+    fmt = "70mm " if "70-mm" in (ATTR or "") else ""
+    label = f"{FILM_LABEL} {fmt}at Flora"
+
     for eid, ev in current.items():
         prev = old.get(eid)
         is_new = prev is None
@@ -225,18 +241,18 @@ def run_once(seed: bool = False, force: bool = False, dates: list | None = None)
                 f"~{round((ev['ratio'] or 0) * 100)}% seats free" if ev["ratio"] is not None
                 else "available")
             if is_new:
-                head = "🎬 New Odyssey 70mm date at Flora"
+                head = f"🎬 New date — {label}"
             elif released:
-                head = "🎟️ Tickets released — Odyssey 70mm at Flora"
+                head = f"🎟️ Tickets released — {label}"
             else:
-                head = "Odyssey 70mm at Flora"
+                head = label
             body = f"{when} · {ev['auditorium']} · {seats}"
             notify(head, body, ev["link"])
 
     # Detect screenings that vanished (cancelled / date pulled) — optional signal.
     for eid, prev in old.items():
         if eid not in current:
-            notify("⚠️ Odyssey 70mm screening removed",
+            notify(f"⚠️ Screening removed — {label}",
                    f"{_pretty_when(prev.get('when',''))} is no longer listed", "")
 
     if not DRY_RUN:
@@ -283,7 +299,7 @@ def run_loop(interval: int, full_every: int, max_runtime: int,
 
 def main() -> None:
     global DRY_RUN
-    p = argparse.ArgumentParser(description="Cinema City Flora IMAX 70mm Odyssey watcher")
+    p = argparse.ArgumentParser(description="Cinema City Flora IMAX 70mm Dune watcher")
     p.add_argument("--once", action="store_true", help="single scan (default)")
     p.add_argument("--loop", type=int, metavar="SECONDS",
                    help="poll every N seconds (light dates check each tick)")
@@ -303,8 +319,8 @@ def main() -> None:
     if args.test:
         print("Sending a test notification...")
         notify("✅ odyssey-watch works",
-               "This is a test. Your Odyssey 70mm alerts will look like this.",
-               "https://www.cinemacity.cz/cz/movies/the-odyssey")
+               f"This is a test. Your {FILM_LABEL} alerts will look like this.",
+               "https://www.cinemacity.cz/")
         print("Done. If nothing arrived, check your TELEGRAM_TOKEN / TELEGRAM_CHAT_ID.")
         return
 
