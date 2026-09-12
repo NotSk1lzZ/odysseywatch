@@ -1,14 +1,12 @@
-# odyssey-watch
+# Cinema Notificationer 3000
 
-Alerts you when a **70mm screening of *Dune (Duna)*** appears (or tickets are
-re-released) at **Cinema City Praha Flora** — by polling Cinema City's public
-JSON API instead of scraping the website.
+Alerts you when a **70mm screening of *Dune (Duna)*** appears at **Cinema City
+Praha Flora** — by polling Cinema City's public JSON API instead of scraping the
+website. Useful for catching a presale the moment it opens.
 
-It fires on three events:
+It fires on one thing:
 
 - 🎬 **New date** — a 70mm Dune screening that wasn't listed before
-- 🎟️ **Tickets released** — a screening that flipped from *sold out* to *available*
-- ⚠️ **Removed** — a screening that disappeared (cancelled / pulled)
 
 No login, no API key, no dependencies (Python 3.9+ standard library only).
 
@@ -27,9 +25,9 @@ You need at least one. **Telegram is the default.**
 ### Option B — ntfy (no account, fallback)
 1. Install the **ntfy** app (iOS / Android) or open <https://ntfy.sh> in a browser.
 2. Subscribe to a topic — pick something long and unguessable, e.g.
-   `odyssey-flora-7hk28df`. Anyone who knows the topic can read it, so treat it
+   `cinema3000-flora-7hk28df`. Anyone who knows the topic can read it, so treat it
    like a password.
-3. Set the env var `NTFY_TOPIC=odyssey-flora-7hk28df`.
+3. Set the env var `NTFY_TOPIC=cinema3000-flora-7hk28df`.
 
 ---
 
@@ -69,7 +67,7 @@ Flora dates printed as `[dry-run] WOULD ALERT: ...` without spamming your phone.
    TELEGRAM_TOKEN=... TELEGRAM_CHAT_ID=... python watch.py --seed
    git add state/seen.json && git commit -m "seed" && git push
    ```
-5. Done. Trigger a manual test under **Actions → odyssey-watch → Run workflow**
+5. Done. Trigger a manual test under **Actions → Cinema Notificationer 3000 → Run workflow**
    (tick *force* to see current dates).
 
 > **How the frequency works.** GitHub's cron floor is 5 min and scheduled runs
