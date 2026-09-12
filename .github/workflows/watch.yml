@@ -1,4 +1,4 @@
-name: odyssey-watch
+name: Cinema Notificationer 3000
 
 on:
   schedule:
@@ -21,7 +21,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: odyssey-watch
+  group: cinema-notificationer-3000
   cancel-in-progress: true
 
 jobs:
