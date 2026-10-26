@@ -61,7 +61,7 @@
     "when": "2026-12-16T00:01:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.2234,
+    "ratio": 0.213,
     "attrs": [
       "12-plus",
       "2d",
@@ -80,7 +80,7 @@
     "when": "2026-12-16T21:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.1506,
+    "ratio": 0.1455,
     "attrs": [
       "12-plus",
       "2d",
@@ -99,7 +99,7 @@
     "when": "2026-12-17T14:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.2052,
+    "ratio": 0.2026,
     "attrs": [
       "12-plus",
       "2d",
@@ -118,7 +118,7 @@
     "when": "2026-12-17T17:20:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.1247,
+    "ratio": 0.1065,
     "attrs": [
       "12-plus",
       "2d",
@@ -251,7 +251,7 @@
     "when": "2026-12-19T14:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.1429,
+    "ratio": 0.1377,
     "attrs": [
       "12-plus",
       "2d",
@@ -270,7 +270,7 @@
     "when": "2026-12-19T17:20:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.1429,
+    "ratio": 0.1377,
     "attrs": [
       "12-plus",
       "2d",
