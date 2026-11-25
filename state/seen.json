@@ -289,7 +289,7 @@
     "when": "2026-12-19T20:40:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.0545,
+    "ratio": 0.0468,
     "attrs": [
       "12-plus",
       "2d",
@@ -308,7 +308,7 @@
     "when": "2026-12-20T10:40:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.0649,
+    "ratio": 0.0623,
     "attrs": [
       "12-plus",
       "2d",
@@ -359,24 +359,5 @@
       "subbed"
     ],
     "link": "https://www.cinemacity.cz/cz/booking-router/launch/1052/267926?lang=cs"
-  },
-  "267928": {
-    "film": "Duna: část třetí",
-    "when": "2026-12-20T20:40:00",
-    "auditorium": "IMAX VOLVO",
-    "soldOut": false,
-    "ratio": 0.0623,
-    "attrs": [
-      "12-plus",
-      "2d",
-      "70-mm",
-      "action",
-      "adventure",
-      "drama",
-      "first-subbed-lang-cs",
-      "sci-fi",
-      "subbed"
-    ],
-    "link": "https://www.cinemacity.cz/cz/booking-router/launch/1052/267928?lang=cs"
   }
 }
