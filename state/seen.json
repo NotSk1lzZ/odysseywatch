@@ -61,7 +61,7 @@
     "when": "2026-12-16T00:01:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.0649,
+    "ratio": 0.0597,
     "attrs": [
       "12-plus",
       "2d",
@@ -118,7 +118,7 @@
     "when": "2026-12-17T17:20:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.0597,
+    "ratio": 0.0519,
     "attrs": [
       "12-plus",
       "2d",
@@ -289,7 +289,7 @@
     "when": "2026-12-19T20:40:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.0468,
+    "ratio": 0.0442,
     "attrs": [
       "12-plus",
       "2d",
@@ -360,12 +360,31 @@
     ],
     "link": "https://www.cinemacity.cz/cz/booking-router/launch/1052/267926?lang=cs"
   },
+  "267928": {
+    "film": "Duna: část třetí",
+    "when": "2026-12-20T20:40:00",
+    "auditorium": "IMAX VOLVO",
+    "soldOut": false,
+    "ratio": 0.0675,
+    "attrs": [
+      "12-plus",
+      "2d",
+      "70-mm",
+      "action",
+      "adventure",
+      "drama",
+      "first-subbed-lang-cs",
+      "sci-fi",
+      "subbed"
+    ],
+    "link": "https://www.cinemacity.cz/cz/booking-router/launch/1052/267928?lang=cs"
+  },
   "291584": {
     "film": "Duna: část třetí",
     "when": "2026-12-21T09:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.6779,
+    "ratio": 0.6,
     "attrs": [
       "12-plus",
       "2d",
@@ -384,7 +403,7 @@
     "when": "2026-12-21T12:20:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.5844,
+    "ratio": 0.5013,
     "attrs": [
       "12-plus",
       "2d",
@@ -403,7 +422,7 @@
     "when": "2026-12-21T15:40:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.5091,
+    "ratio": 0.4468,
     "attrs": [
       "12-plus",
       "2d",
@@ -422,7 +441,7 @@
     "when": "2026-12-21T19:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.3662,
+    "ratio": 0.3195,
     "attrs": [
       "12-plus",
       "2d",
@@ -441,7 +460,7 @@
     "when": "2026-12-21T22:20:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.6078,
+    "ratio": 0.5403,
     "attrs": [
       "12-plus",
       "2d",
@@ -460,7 +479,7 @@
     "when": "2026-12-22T09:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.7558,
+    "ratio": 0.6701,
     "attrs": [
       "12-plus",
       "2d",
@@ -479,7 +498,7 @@
     "when": "2026-12-22T12:20:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.613,
+    "ratio": 0.5247,
     "attrs": [
       "12-plus",
       "2d",
@@ -498,7 +517,7 @@
     "when": "2026-12-22T15:40:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.5584,
+    "ratio": 0.5169,
     "attrs": [
       "12-plus",
       "2d",
@@ -517,7 +536,7 @@
     "when": "2026-12-22T19:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.4234,
+    "ratio": 0.3844,
     "attrs": [
       "12-plus",
       "2d",
@@ -536,7 +555,7 @@
     "when": "2026-12-22T22:20:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.626,
+    "ratio": 0.5506,
     "attrs": [
       "12-plus",
       "2d",
@@ -555,7 +574,7 @@
     "when": "2026-12-23T09:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.7117,
+    "ratio": 0.6286,
     "attrs": [
       "12-plus",
       "2d",
@@ -574,7 +593,7 @@
     "when": "2026-12-23T12:20:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.6442,
+    "ratio": 0.5948,
     "attrs": [
       "12-plus",
       "2d",
@@ -593,7 +612,7 @@
     "when": "2026-12-23T15:40:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.5844,
+    "ratio": 0.5481,
     "attrs": [
       "12-plus",
       "2d",
@@ -612,7 +631,7 @@
     "when": "2026-12-23T19:00:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.4649,
+    "ratio": 0.4156,
     "attrs": [
       "12-plus",
       "2d",
@@ -631,7 +650,7 @@
     "when": "2026-12-23T22:20:00",
     "auditorium": "IMAX VOLVO",
     "soldOut": false,
-    "ratio": 0.6701,
+    "ratio": 0.587,
     "attrs": [
       "12-plus",
       "2d",
